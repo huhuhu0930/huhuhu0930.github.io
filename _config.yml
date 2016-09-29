@@ -1,0 +1,93 @@
+﻿# Site settings
+title: Huhuhu Blog
+SEOTitle: 天翼的博客 | Huhuhu Blog
+header-img: img/home-bg.jpg
+email: 1533136736@qq.com
+description: "不度人世清浊，未飨红尘洒脱。"
+keyword: "ACM"
+url: "http://huhuhu0930.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+#weibo_username:     totodayqiang
+zhihu_username:     洛剑尘
+github_username:    huhuhu0930
+# twitter_username:  
+# facebook_username:  totoday
+# linkedin_username :  totoday
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+# duoshuo_username: totoday
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 358e6f99fe886e79648e11f1e7442f32
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: totoday.cn
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "六尺微命，一介书生"
+sidebar-avatar: /img/photo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+
+
+
+
+# Friends
+friends: [
+    {
+        title: "强哥",
+        href: "http://www.totoday.cn/"
+    },{
+        title: "马天猫",
+        href: "http://blog.csdn.net/miracle_ma"
+    }
+]
